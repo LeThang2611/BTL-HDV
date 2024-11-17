@@ -8,7 +8,7 @@ CREATE TABLE customers (
 CREATE TABLE tables (
     table_id INT AUTO_INCREMENT PRIMARY KEY,
     table_number VARCHAR(10) NOT NULL UNIQUE,
-    seats INT NOT NULL -- Số chỗ ngồi
+    seats INT NOT NULL 
 );
 CREATE TABLE reservations (
     reservation_id INT AUTO_INCREMENT PRIMARY KEY,
